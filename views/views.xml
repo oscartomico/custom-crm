@@ -105,7 +105,7 @@
             <field name="name">Visita</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">custom_crm.visit</field>
-            <field name="view_mode">tree,form,kanban,search</field>
+            <field name="view_mode">tree,form,kanban</field>
             <field name="help" type="html">
                 <p class="oe_view_nocontent_create">
                     Visitas

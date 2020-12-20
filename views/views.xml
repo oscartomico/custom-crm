@@ -6,6 +6,11 @@
             <field name="arch" type="xml">
                 <form string="Visita">
                     <sheet>
+                        <div class="oe_button_box" name="button_box">
+                            <button name="toggle_state" type="object" class="oe_stat_button"
+                                    string="Cambiar realizada" icon="fa-play-circle"
+                            />
+                        </div>
                         <group name="group_top">
                             <group name="group_left">
                                 <field name="customer" />
